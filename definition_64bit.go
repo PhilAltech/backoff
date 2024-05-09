@@ -1,4 +1,4 @@
-// +build !386 !arm !mipsle !mips !wasm
+//go:build !(386 || arm || mipsle || mips || wasm)
 
 package backoff
 
