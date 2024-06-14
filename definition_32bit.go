@@ -3,7 +3,6 @@
 package backoff
 
 import (
-	"math"
 	"sync/atomic"
     "time"
 )
