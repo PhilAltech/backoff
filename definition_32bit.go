@@ -8,7 +8,6 @@ import (
     "time"
 )
 
-const maxDuration = float64(math.MaxInt32 - 512)
 
 // Backoff is a time.Duration counter, starting at Min. After every call to
 // the Duration method the current timing is multiplied by Factor, but it

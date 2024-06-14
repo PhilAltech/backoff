@@ -7,6 +7,8 @@ import (
 	"time"
 )
 
+const maxDuration = float64(math.MaxInt64 - 512)
+
 // ForAttempt returns the duration for a specific attempt. This is useful if
 // you have a large number of independent Backoffs, but don't want use
 // unnecessary memory storing the Backoff parameters per Backoff. The first
